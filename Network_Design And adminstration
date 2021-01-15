@@ -8,7 +8,9 @@ Modes on A router
                            -hostname nameOftheHost
                            -exit
                            -clock set ?
-                           -banner motd? - configur
+                           -banner motd? - configures security policy.
+                                         banner motd # ** AUTHORIZED USERS ONLY** #
+                           -enable secret command
 4. To make a change to the fasterethernet interface 0/0 then you have  to enter interface 
    configuration mode.
            -interface fastethernate 0/0
@@ -21,5 +23,20 @@ access-expression - Build a bridge boolean access expression
 arp - set arp type (arpa, probe snap)
 backup - modify  backup parameters.
 ip  - interface internet protocol config command
+
+
+Course outline  15/01/2021
+----------------------------
+-Why design - 
+-why administration-  being in
+
+What is  network system and administration?
+---------------------------------------
+-network system addministration is a branch of enginerrin that concern the operational management  of human and computer system.
+ this enginerring is unusual because enginering concept have specific technology solution.
+-A system adnminstrator work for users so that they can use a system to produce work. therefore a system adminstrator should focus 
+ not on the few selfish means but all community(global).
+-Once a computing device is attach in the internet, we have to consider the consequences of being directly connected to all other computing device in the world.
+-
 
 
