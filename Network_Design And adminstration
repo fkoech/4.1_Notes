@@ -1,1 +1,5 @@
-
+Modes on A router
+-------------------
+1. user mode - can use  see some statistical information.
+2.privilege mode - can be entered by enable command.
+global configuration mode - facilitate any possible subsequence configuration mode and make global changes.
