@@ -1,10 +1,10 @@
 Modes on A router
 -------------------
-1. user mode - can use  see some statistical information.
+1. user mode -  use  see some statistical information.
 2.privilege mode - can be entered by enable command.
 3.global configuration mode - facilitate any possible subsequence 
                            configuration mode and make global changes.
-                           -configure terminal or config t
+                           -can be intered with configure terminal command or config t 
                            -hostname nameOftheHost
                            -exit
                            -clock set ?
@@ -72,7 +72,14 @@ Impairements
 -Distortion
 -Attenation
 
-
+Definition of terms
+----------------------
+-throughput - rate at which data is traversing link.
+            -measurement of all data though /flowing through a link.
+-Goodput - rate at which useful data traverses a link.
+         - focuses on useful data only.
+-Host/end device - origin or end devices.
+-Intermediary  devices - propag
              
 
 Course outline  15/01/2021
