@@ -79,7 +79,154 @@ Definition of terms
 -Goodput - rate at which useful data traverses a link.
          - focuses on useful data only.
 -Host/end device - origin or end devices.
--Intermediary  devices - propag
+-Intermediary  devices - propagate data
+                       -They include: router, switchs, hub etc
+-Media - Facilitate connectivity.
+       -classified into:
+                       wired
+                       wireless
+        -they include:
+                      1.fiber optic
+                      2.coper- a)coaxial
+                              - c)twisted - shielded
+                                          - unshielded(UTS)- cross-over -different standard both end.
+                                                           -straight-through - same standard both end
+                                                           
+  Network protocol  and communication overview
+  -----------------------------------------------
+  -models
+  -standards that makes network work
+  -How communication occur over network.
+  
+  
+  Elements in communications
+  --------------------------
+  -message source(sender)
+  -destination (receiver)
+  -channel(media) - provides pathway over which the message travels.
+  
+  
+  Protocol
+  --------------
+  -Rules that govern communication 
+ 
+ 
+ What a protocol must account
+ -------------------------------------
+ -An identified sender and receiver
+ -Common language and grammer.
+ -Speed and timing of delivery.
+ -confirmation or acknowledgement requirement.
+  
+  
+ -Message encoding - first step of sending message.
+                   -process of converting information into another acceptable form
+                    for transmission.
+ -Decoding - Reversed encoding in order to intercept the information.
+ -Encapsulation - placing one message format(letter) inside another message format envelop.
+ 
+ 
+ Rules of  engagement for message timing
+ ----------------------------------------
+ -access method
+ -flow control
+ -Response timeout
+ 
+- Access method - determine when someone is able to send a message.
+-Flow control - used to negotiate correct timing for successful correct timing for successful communication.
+-Response Timeout - rules that specify how long to wait for responses and what action to take if a responses timeout occur.
+
+
+Message delivery options
+----------------------
+-Unicast - is one -to - one delivery option
+         - one/single destination for the message
+-Multicast - one to many delivery option.
+           - a delivery of the same message to a  group of host destination simultanously.
+-Broadcast - one to all message delivery option.
+
+
+
+Rules that Govern communication
+-----------------------------------
+-Protocol suite - A group of inter-related protocol necessary to perform a communication.
+                - implemented by hosts and networking devices in software.
+                
+common Networking protocols
+-----------------------------
+-Hypertext transfer protocol(HTTP)
+-Transmission control protocol (TCP)
+-Internet protocol (IP
+ 
+ 
+-IP refers to both ipv4 and ipv6 
+
+
+Interaction of protocols
+-----------------------------
+layer name                       protocol stack
+------------------------------------------------------
+Application                      HTTP
+------------------------------------------------------
+Transport                        TCP
+------------------------------------------------------
+Internet                        IP
+------------------------------------------------------
+Network access                  Ethernet
+------------------------------------------------------
+
+
+
+              HTTP
+              -----
+-An application protocol.
+-Governs the way the way web servers and web client interact.
+-Defines the content and formatting  of the requests and responses.
+-Implemented by both web server and web client software.
+
+
+            TCP
+            -----
+-Transport protocol.
+-Devides HTTP.message into segment.
+-The segment are 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                       
+                                 
+-service.
+-Topology - design of the network.
+          - Classified into:
+                        physical
+                        logical
+           -types:
+                Bus
+                ring
+                mesh
+                
+                
+   Characteristics of a good network
+   -----------------------------------
+ -Scalability
+ -quality of service
+ -secuirity
+ -Tolerance
+ 
+ TCPIP model
+ --------------
+ -It has the following layers:
+                 -Application
+                 -Transport
+                 -Internate
+                 -Network
+ 
+ 
+ 
              
 
 Course outline  15/01/2021
