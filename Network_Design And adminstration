@@ -24,6 +24,56 @@ arp - set arp type (arpa, probe snap)
 backup - modify  backup parameters.
 ip  - interface internet protocol config command
 
+Major Configuration command for setting up network(devices ie switch and router) 
+-----------------------------------------------------------------------------------
+-enable/en
+-configure terminal/ conf term
+-enable secret/en sec
+hostname nameofhost
+-banner MOTD # banner message #
+-ip default gateway ipaddress_of_default_gateway
+-int vlan
+-ip add
+-no shutdown
+-line console 0 4
+-password 
+-login
+-line vty 0 15
+-login 
+-transport input telnet
+-end
+-copy run start
+-do write
+
+
+Revision Notes From CISCO
+-------------------------
+Hub and Switch
+---------------
+-Both act as centrol point to which all the computers are connected.
+ 
+OSI(open system interconnection)
+-------------------------------------
+-Has seven layers:
+                  Application         away
+                  presentation        pizza
+                  session             sausage
+                  Transport           throw
+                  Network             not
+                  Data link           do
+                  Physical            please
+                  
+Impairements
+--------------
+-Delays/latencies
+-losses
+-interference
+-Noise
+-Distortion
+-Attenation
+
+
+             
 
 Course outline  15/01/2021
 ----------------------------
