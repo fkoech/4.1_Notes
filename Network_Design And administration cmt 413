@@ -255,7 +255,21 @@ What is  network system and administration?
          
                                     Lesson2 22/01/2021
             -------------------------------------------------------------------------
-  -                                
+  
+  Appying technology in an environment
+  ---------------------------------------------
+  -A key task in network system adminstration is to build the hardware configaration and the software configuration.
+  -Both of this task(h/w, s/w configuration) are performed for users.
+  -Each of this task presences its own challenges, howevery, the challanges post by this task can not be delt in issolation.
+  -H/w has to conform to the constrains of the physical world.
+  -h/w is subjected to power requirement, power challenges, climate and it must have conformance to the basic standards.
+  -The type of h/w limite the kind of s/w that run on it.
+  -S/w configuration must be carried out on the appropriate h/w.
+  -Modern software in the context of global network need to interoperate and survive the possible hostilities of incompatiable and inhospitable competition.
+  -In todays equipment , the major challenge is the complexity of multiple software systems, sharing a common internet space.
+  -As network system adminstrators, our focus should change from the physical environment to a technological enviromement, this focus must include,
+   the diversity of the constant change.
+  -
          
          
          
