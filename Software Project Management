@@ -129,16 +129,24 @@ N/B Group discussion AND PRESENTATION(NEXTWEEK)
 -
 7)differenciate btw  PERT chart , GANT chart
 ----------------------------------------
--
--
+-Gantt chart is a bar chart that lays out project tasks and timelines linearly while PERT is
+ network diagram that displays all the project tasks in separate boxies and connect them with arrows
+  to clearly clear show task dependencies.
+-PERT  can define all task and activites required for project, the develop a realistic timeframe for project competion.
+while Cantt is used to check how long each task is exprected to take , also great for visualizing
+the order of specific tasks as well as the teams and individuals responsible for each task.
 -
 -
 -
 8)-Discuss  the 4 constraints of a project / sw project (time, scope, quality)
 ------------------------------------------------------------------------------------------------------------
--
--
--
+-Time constraint - refers to the project's shedule for completion, including the deadline 
+                  for each phase.
+                  
+-Scope constaint - the scope of a project defines its specific goals, deliverables, featurs and 
+                  functions.
+-Cost constraint - comprises all of the financial resources needed to complete the project on time
+
 -
 -
 9)what is PMBOK
