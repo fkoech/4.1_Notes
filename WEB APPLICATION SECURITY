@@ -1,0 +1,57 @@
+CMT 447
+-------------
+Introduction to web application security
+----------------------------------------------
+-what is risk in computer security? - anything that can can cause damage to confidentiality, availability and intergrity of data and systems.
+                                    - they include misconfigured software, unpatches operating system, unsafe computer habits.
+-privileges -
+-encryption - converting plain text to cipher text.
+-cipher - plain text that has undergone the cryptographic algorithms, to be much longer than the actual word or being shorter than the word.
+-decryption – converting the cipher text to plain text.( algorithm and key)
+-vulnerability -  loop hole in a system that can be exploited.                                                     CHAPTER ONE                                                       20/01/2021/LESSON 2
+------------------------------------------------------------------------------------------------------------------------------------------
+CMT 447
+-------------
+Introduction to web application security
+----------------------------------------------
+-what is
+-integrity - the act of data being protected from being modified, deleted and duplicated by unauthorized person.
+-availability - the act of systems/ data being available or reliable to the authorized person.
+-confidentiality - the act of keeping it private or secret
+-Non- repudiation - associating action to unique individual.
+-authorization - giving access to authorized individuals.
+-access control - 
+-spyware - it is a malware that can still your data, and use it to spy on you using webcam or microphone without your concern.
+-ransome - melicious code that can hold your system or data unreable until you pay the hacker ransom.
+         -can be delivered by virus or worm.
+-trojan horse - a special kind of virus.
+              - delivers other malware by hidding in lagitimate programs.
+-worm - they are like virus.
+      - they have ability to spread themselves from computer to computer on their own.
+-virus - malicious code that is attached to a files in your system.
+       -can cause damages,  data lose or cause someone to access your system without your concerns.
+       -SQL injection
+       -cross scripting 
+       -Trojan horse
+       - DOS
+-zombie
+-botnet
+-Attack -
+-Detection
+-threat – potential acts that can cause a system to be exploited.
+               - it can cause denial of access to a system.
+-policy – protective measures that put in place by an organization.
+-Control – 
+Cybercrime – act of doing illegal activities in the cyber space.
+Cyberspace –  widespread interconnected digital technology.
+Penetration testing – 
+Who is a hacker -  an individual who uses the network, computer and other technical skills to solve    
+                                    the computer/system problems.                                                                
+-Type of hackers – 
+                        -Black hat hacker - 
+                         -Grey hat hackers
+                        -Script kiddies / amateurs
+                       -White hat hackers.
+                       
+ Technolofies to impliment encryption - DH differ-Hellman)
+                                        PGP prettty good privacy)
