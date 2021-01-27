@@ -191,9 +191,25 @@ Machine Learning
       ----------------------------------------
       -For the case of booking a cab.
       -It  provides  a personalized application which is unique  to you.
-      -It automatically detects your locations 
+      -It automatically detects your locations. 
       -It also provide options to either go home  or office or any other frequent place based on your History or pattern.
-      -Is uses machin learning algorithms layered on top of 
+      -Is uses machine learning algorithms layered on top of historic trips data to make more accurate ETA prediction.
+      
+      Production Recommendation 
+      ---------------------------------
+      -Ads appearing across all you social media platform.
+      -This happens beacuse google tracks your search mhistory and recommends ads based on your search history.
+      
+      Virtual personal assistants
+      ------------------------------
+      -Helps in finding useful information , when asked via text or voice.
+      -Major applications of  machine learning 
+                    Speech  recognition
+                    Speech to text conversion
+                    Natural language processing.
+                    Text to speech conversion
+     -Examples are:
+                   siri, Alexa, google, cortana
                                  
  
  
