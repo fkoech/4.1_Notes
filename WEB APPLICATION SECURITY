@@ -55,3 +55,83 @@ Who is a hacker -  an individual who uses the network, computer and other techni
                        
  Technolofies to impliment encryption - DH differ-Hellman)
                                         PGP prettty good privacy)
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        CHAPTER 2 
+                                        -------------
+      -  -cryptography - secret code.
+-plain text - human readable text.
+-cipher text - plain text that is encrypted .
+-Intruder - malicious party.
+-Keys - private key 
+     -public key
+-Hash function - check the integrity of data.
+-Encryption  -  algorithm + key
+-Private key  -
+-Public key - 
+-Decryption  - 
+-key - 
+-block ciphers -cipher feedback
+           - 
+-stream ciphers - self synchronising 
+             - synchronous 
+-Derivative
+-RSA algorithm.
+-eavesdropping
+-md5
+-R13
+-SHA-1
+-Non-repudiation
+
+
+
+
+Type of cryptography
+-Secret key(symmetric)(skc) -uses one key for encryption and decryption.( Ruleset)
+-Public key(Asymmetric)(pkc ) - use one key for encryption and another for decryption.
+-Hash function - use mathematical transformation to irreversible encrypt information.(uses the hash function for encryption and decryption)
+-
+
+
+SKC algorithm
+1-Data encryption standard
+         -Triple -DES
+         -DESX
+-DES - employ 56bit key that operate on  64bit block.
+2-Advanced encryption standard 
+      -uses a variable block length.
+3 - 
+
+PKC
+-uses two keys that are mathematically related.
+-How can the second party knows that the message is from the first party?
+ if the second party successfully decrypt message send  by the first party using their public key.
+-
+
+PKC algorithms
+- - - - - -- -- -- --
+1.Diffie-Hellman  - used for secret key exchange.
+2.Digital signature Algorithm(DSA)
+3.
+
+-Hash function, also message digest and one-way encryption                                
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
