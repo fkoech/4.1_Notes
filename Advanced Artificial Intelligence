@@ -23,6 +23,7 @@ Machine Learning
  What AI can do
  --------------------
  -Taging a face in a facebook photo.
+ -AI that is  running behind the scenes and identifying faces 
  -Automous cars running on roads detect object in real time to steer the car.
  -Object detection technic in real time helps to learn the real-time traffic situation and 
  follow the bes path(Google direction)
@@ -30,12 +31,170 @@ Machine Learning
  
  -The advantange of AI is that it can it can perform extremely complex
  jobs with a great accuracy and speed.
- -For example the google direction suggest the fastest path to our destinationat that time instance.
+ -For example the google direction suggest the fastest path to our destination that time instance.
  -It can judge the traffic situation in every possible path to give
   you a travel time estimate for each such path.
- -Alot of AI and machine learning techniques re in-use under the hoods of  google
+ -Alot of AI and machine learning techniques are in-use under the hoods of  google
  direction so that it can cover the entire globe.
  
+ Statistical techniques that are used  for developing AI applications
+ -------------------------------------------------------------------------
+ -Regression
+ -Classification
+ -Clustering
+ -Probabilities Theories
+ -Decision trees
+ -Satistical techniques  is used to develop AI with limited data.
+ -Advanced methods such as the deep lerning can solve the many complex problems.
+ 
+      What is machine learning
+      --------------------------
+ -Machine learing  is like an act of using the statistical optimazation techniques to  find out the equation 
+ for the best curve.
+ -It uses the optimazation technique to find the solution to problem.
+       
+       Categories of machine learning
+       --------------------------------
+ -Supervised learning (sl)
+ -Unsupervised learning( ul)
+ -Reinforcement leaning(rl)
+ -Deep learning(dl)
+ -Deep reinforcement learning (drl)
+ 
+ 
+ ->ul - machine is made to learn on its own without any supervision.
+ ->sl - ie the case of  housing price prediction.
+ ->dl - human brain is simulated  in the artificial neural network(ANN) created in binary computers.
+ -Machine learn on its own using the high computing power and huge memory resources that are available today.
+ 
+ 
+ 
+ Growth of machine learning 
+ --------------------------------
+ -Speech recognition,  natural language processing.
+ -Computer vision
+ -Medical outcome analysis
+ -Robot control
+ -Computational biology
+ -Sensor networks.
+ 
+ -Trending - Big data
+             Improved machine learning algorithms
+             faster computers
+             Good open-source software.
+             
+ Supervised learning
+ -----------------------
+ -Analogous to training a child to walk.
+ 
+ Regression
+ -------------
+ -Similar to supervised learning accept  that you give a concrete known examples to the
+  computer.
+  
+  Classification 
+  ---------------
+  -You classify objects of similar nature into a single groups.
+  
+  Unsupervised learning
+  ---------------------
+  -Do not  specify a target variable to the machine, rather we ask machine what it can tell about a
+  specific object.
+  -To reach at this point the is a large number  of dataset  points that  the machine would require to 
+  deduce .
+  -For the case of supervised a machine need to be trained with even few thousands of data points.
+  -For the cause of unsupervised learning, the number of data point that is reasonable 
+   accepted for learning start in a few millions.
+   -data idealy requires  curating.
+   -Data Curating - is the organisation and integration  of data collection from various source.
+                  - It involve annotation, publication and presentation of data such that the value of the data is maintained over time.
+                    and data remains available  for reuse and preservation.
+                    
+ Reinforcement learning 
+ ----------------------
+ -Initially developed for machine to play Games.
+ -The machine is given an algorithm  to analyze all possible moves at each  stage of the game.
+ -The machine can select one of the move at random.
+ -If the move is right,  the machine is rewarded, otherwise it may be penalized.
+ -Slowly the machine started differenciating between right and wrong moves.
+ -After a several iteration it started it would learn to solve the game puzzle with a better accuracy.
+ -The accuracy of winning the game would improve as  the machine plays more and more games.
+ 
+ 
+ How does the supervised learning different from the  reinforcement learning 
+ ------------------------------------------------------------------------------
+ -Reinforcement learning need not supply the labelled input/output pairs.
+  their focus is on finding the  the balance  betweeen exploring new solution verse exploiting the
+  learned  solution.
+  
+  
+  
+  DEEP LEARNING
+  ---------------------
+  -A model based on Artificial Neural  Network(ANN),  more specifically,
+   convolution  neueal networks(CNN),.
+  -It used architectures such as:
+                                 Deep neursl network
+                                 Deep belief network
+                                 Recurrent neural network
+                                 convolution neural network.
+  -This networks have been successfully applied in  solving the problems of:
+                               computer vision
+                               speech recognition
+                               natural language processing
+                               bioinformatic
+                               drug design
+                               medical image analysis
+                               games
+ -Requires huge processing power and humongous data.
+ 
+ 
+ Deep reinforcement learning
+ ---------------------------------
+ -Combines the techinques of both deep  and reiforcement learning.
+ -Reiforcement learning algorithm like Q-like are now combined with  deep learning  to create a powerful DRL model.
+ -It has been with great success in fields such as:
+                                   Robotics
+                                   Video Games
+                                   Finance
+                                   Healthcare
+                                   
+                                   
+                                   
+                                   
+                                   
+      Application  ares of machine learning
+      -------------------------------------------
+      -Traffic alerts
+      -Social media
+      -transport and commuting
+      -Products recommendations
+      -Virtual  personal assistant
+      -self driving cars
+      -Dynamic pricing
+      -Google Translate
+      -Online Video streaming
+      -Fraud Detection.
+      
+      
+      Social media(FACEBOOK)
+      ---------------------------
+      -Automatic friend tagging suggestions.
+      -It uses face detection and image recognition to autmatically find the face of the person which 
+      matches its' database and hence suggests for us to tag that person based on Deepface.
+      -Deep learning is responsible for  recognistion of the faces and identifying which person 
+       is in the picture. 
+      -It also provides an alternative tag.
+      
+      
+      Transportation and commuting(Uber)
+      ----------------------------------------
+      -For the case of booking a cab.
+      -It  provides  a personalized application which is unique  to you.
+      -It automatically detects your locations 
+      -It also provide options to either go home  or office or any other frequent place based on your History or pattern.
+      -Is uses machin learning algorithms layered on top of 
+                                 
  
  
  Traditional AI
