@@ -218,5 +218,40 @@ Machine Learning
  
  
  
+       CHAPTER 2
+       ------------------
+   -Machine learning 
+   ------------------------
+   -ML - is a collection of algorithms and techniques used to build system that learns from data.
+   -Then the system can then perform prediction by finding pattern in the data.
+   -It sweeps traditional programming in  a certain cases.
+   
+   
+   Difference between machine learning and traditional programming 
+   ----------------------------------------------------------------------
+   Traditional programming                                        machine learnig 
+   -------------------------------------------------------------------------------
+   1.data and the program produces the output       1.data and the output produces the program
+   -----------------------------------------------------------------------------------------------
+   2.Is a manual process                             2.Algorith automatical formulate the rules from the data
+    (programmer manual formulate or code the rules)    
+   ---------------------------------------------------------------------------------------------------------------------
+   3.
+ 
+ Machine learning composses of the following descipline;
+      scientific computing
+      mathematics
+      statistics
+      
+      
+      
+      Why machine learning 
+      -----------------------------
+  -E-mail filter program  without using ml step by step
+     1.identify how the spam email looks like.
+     2.write algorithm to detect the pattern that you have seen.
+     3.test the program and then make changes to the program until the results are good enough.
+     
+ 
  
  
