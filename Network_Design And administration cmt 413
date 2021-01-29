@@ -225,20 +225,174 @@ Network access                  Ethernet
                  -Internate
                  -Network
  
+ Routers
+ -------------
+ -they are computers
+ -interconnect networks
+ -chooses the best path
+ -packet forwarding mechanism 
+ -
  
- 
-             
+ Characteristic of a network
+ --------------------------------
+ -Network allows us to communicate, collaborate and interact.
+ -We use it in various ways which includes:
+                              web applications
+                              IP telephone
+                              Video conferencing
+                              Interactive gaming
+                              electronic commerce
+                              education
+ Characteristics
+ --------------------
+ 1.Topology - there are:
+                   physical 
+                   logical
+             -physical topology - is the arrangement  of the cables, netwroks device and end  systems.
+             -                  -describe how te network devices are actually interconnected with wires and cables.
+             -Logical topology - is path over which dta is transfered in a network.
+                               - describe how the network devices  appear  connected to network users.
+ 2.Speed - speed is the measure of the data rate in  bits per second(b/s) of a  given link in a network.
+          - reffers to  the network badthwidth(number of bits transmitted per second)
+ 3.Cost -  general expenses on purchasing of network  components, installation and maintenance.
+ 3.security - how protected the network is.
+ 3.Availability - being avaible for users when required.
+ 4.scalability - how easily  the network can accommodate more users and data transmission requirements.
+ 7.Reliability - dependability of the component that make up the network.
+                 measured as a probability of failure or as the mean time between failures.
+      
+      
+      So why routers
+      ------------------
+-It simplely connect one network to another.
+-Without it connection between networks couldn't happen.
+-Determine the best path  to the destination.
+-Forward  traffic  to the next router along that path.
+-route traffic between networks.
+-Uses routing table to determine how to reach the destination network of a packet that arrive at its interface.
+-ip packet destination might be web server or email server.
+-Delivers  packets effectively.
+
+
+    Is a router a computer
+    -------------------------------
+  -It is a special  computers.
+  -It requires CPU and memory to temporarily and permanently store data to excute operating system instruction.
+  -OS functions inclides:
+                    initialization ,
+                    routing function
+                    switching function.
+  -Cisco devices uses Cisco internetwork operating system(IOS) as their system software.
+  -unlike other computers, it lucks:
+                           video adapter
+                           sound adapter
+  -Routers have specialized  ports and network interfaces cards to interconnect devices to other networks.
+  
+  
+  
+  How Routers interconnect Networks
+  ------------------------------------
+  -A router connects multiplle networks, meaning that it has multiple interfaces that each 
+   belong to a different ip network.
+  -When it receives an IP packets on one interface, it detemine which interface to use to forward 
+  the packet  to the destination.
+  -Interface used by the router can be:
+                             final destination
+                             network  connected to another router.
+  -Each network that a  router connects to typically requires a separate interface.
+  -This interfaces are used to connect a combination of both local-area network(LANs) and 
+  wide-area network(WAN)
+  -LANs are commonly  ethernet networks that contains devices such as PCs, printers and servers.
+  -WANS - are used  to connect  networks over a largw geographical area.
+        -ie connects LANs  to internet service providers(ISP)
+        
+            
+     You may be asking yourself how can a router chooses the best path
+     ---------------------------------------------------------------------
+   -The primary function of a router is:
+             Determine the best path to send packets
+             Forward packets toward the destination
+   -It uses its routing table to determine the best path to use to forward a packet.
+   -When it receives a packets, it examines its  destination address and uses the routing table to search 
+    for the best path to that networks.
+   -Routing tables also includes the interface to be used to forward packets for each known network.
+   -When it matches, it encapsulates the packets into the data link frame of the outgoing or ec
+    exit interface and foward it to destination.
+   -A router can receive a  packet that is encapsulated in one type of data link frame, 
+    and forward the packet  out of an interface that uses a different  types of data link frame.
+   -Ie it can receive packet on an ethernet interface, but must forward the packet ot of an interface configured with the
+    point-to-point protocal(PPP)
+   -data link encapsulation depends on the type of interface on the router and the type of interface
+    on the routr and type of the medium to which it connect.
+   -different data links technologies that a router  can connect:
+                  ethernet
+                  PPP
+                  frame Relay
+                  DSL
+                  cable.
+                  wireless(802.11, bluetooth)
+     -Router, receive packets, de-encapsulate, used the destination ip address  of the packet to search 
+      its routing table for matching  network address. When found, encapsulate based on frame and fowrd.
+     -It uses static routes and dynamic routing protocol to learn about a remove network and build their routing table.
+      
+     How is packet forwarding mechanism happen?
+     -----------------------------------------------
+     -Router support three forwarding mechanism:
+                     process switching
+                     Fast switching
+                     cisco express forwarding
+    -process switching - old packet forwarding mechanism.
+                       - still in cisco routers
+                       -when packet arrive on an interface,
+                       -It is fowarded to the control plane 
+                       -Where the CPU matches the destination address with an entry in its
+                        inits routing table.
+                       -Then  determine the exit interface and foward the packet.
+                       -router does this for every packets and it is very slow even of of the same destination.
+                       -very slow
+                       -rarely implemented in modern network.
+                       
+      -Fast switching - common packet forwarding mechanism.
+                      -uses fast switch cache to store next-hop information.
+                      -When packet arrive on an interface, 
+                      -Its forwarded to the control plane 
+                      -where the CPU searches for a match  in the fast-switching  cache.
+                      -if not there , it process-switched and forwarded to the exit interface.
+                      -The flow information is also stored in the fast-switch cache.
+                      -If another packet going to the same destination arrive on an interface, 
+                       the next hop information in the cache is re-used without CPU intervention.
+                       
+       -Cisco Express forward(CEF)  -most recent and preferrd cisco ios packet-fowarding mechanism.
+                                    -build a foward information base(FIB) and an adjacency table.
+                                    -Table entries are not packet triggered like  fast switching
+                                    -but change-triggered such as when  something changes in the network. topology.
+                                    -The FBI and the adjacency table contains all the information a router would have to consider when 
+                                    forwarding  a packet.
+                                    -FBI contains precomputed reverse lookup.
+                                    -the next hop informamtion is the for the route include:
+                                          interface and layer 2 information.
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
 
 Course outline  15/01/2021
 ----------------------------
 -Why design -
--what is Design in networking - planning  of the implementation of a computer network insfrustructure.
+-what is Design in networking - planning  of the implementation of a computer network infrustructure.
                                Performed by:
                                            Network designers
                                            Engineers
                                            IT administrators
 -What is adminstration - Responsibility for keeping an organization's computer network up-to-
-                         date and operating intended.
+                         date and operating as  intended.
 -why administration-  being in
 
 What is  network system and administration?
@@ -258,7 +412,7 @@ What is  network system and administration?
   
   Appying technology in an environment
   ---------------------------------------------
-  -A key task in network system adminstration is to build the hardware configaration and the software configuration.
+  -A key task in network system adminstration is to h/w and software configuration.
   -Both of this task(h/w, s/w configuration) are performed for users.
   -Each of this task presences its own challenges, howevery, the challanges post by this task can not be delt in issolation.
   -H/w has to conform to the constrains of the physical world.
@@ -270,10 +424,10 @@ What is  network system and administration?
   -As network system adminstrators, our focus should change from the physical environment to a technological enviromement, this focus must include,
    the diversity of the constant change.
   -Part of the challenges that network adminstrator encounter is to gather for the disperate piece of the community they are serving into a harmonious whole.
-  -We apply technology in a particular environment for the purpose which is intented, baring in mind that we provide a support infrustracture.
+  -We apply technology in a particular environment for the purpose which is intented, bearing in mind that we provide a support infrustracture.
   -The global view presented to us by information technology  means that we have to think deeply about the system that we employed.
   -The extensive filament of our internetwork system are exposed to .......both accidently and maliciously jack note.
-  - N/b  ignoring such pairing will expose the organization into imaginable risk.
+  - N/b  ignoring such bearing will expose the organization into imaginable risk.
   -(Noovel company).
   -
      
@@ -281,7 +435,7 @@ What is  network system and administration?
      The human Role in systems
      ----------------------------------
   -For human , the task of system administration is a very careful act,  it requires patience, understanding and experience
-  -system administration work is equivalent to people working in the cashualty ward in hospitals.
+  -system administration work is equivalent to people working in the casualty ward in hospitals.
   -In system adminstration is further challenged that system adminstators work with limited resources,
    unfortunately, system adminstrators must manage the crisis with this limited resources.
   -Because of this challenges, we need to recognise that the answers to them are not alway written for us to copy.
