@@ -251,7 +251,12 @@ Machine Learning
      1.identify how the spam email looks like.
      2.write algorithm to detect the pattern that you have seen.
      3.test the program and then make changes to the program until the results are good enough.
-     
+      -THe software flag woud flag the email as spam if certain numbers of those pattern are detected
+      -if the case requires a long list of rules to find the solution it is suitable for ML to come in.
+      -if in any case the email sender change email template, program need to update it manually.
+      unlike the ML which will detect this automatically, and adapt to new data.
  
- 
+ When should you use machine learning 
+ ---------------------------------------------
+  -
  
