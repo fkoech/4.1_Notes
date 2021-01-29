@@ -250,7 +250,7 @@ Network access                  Ethernet
                    logical
              -physical topology - is the arrangement  of the cables, netwroks device and end  systems.
              -                  -describe how te network devices are actually interconnected with wires and cables.
-             -Logical topology - is path over which dta is transfered in a network.
+             -Logical topology - is path over which data is transfered in a network.
                                - describe how the network devices  appear  connected to network users.
  2.Speed - speed is the measure of the data rate in  bits per second(b/s) of a  given link in a network.
           - reffers to  the network badthwidth(number of bits transmitted per second)
@@ -460,8 +460,33 @@ What is  network system and administration?
   
   
   
-      
-     
+      LESSOn3 29/01/2021
+      ---------------------------
+    
+    Analysis Business goals and constraints
+    -----------------------------------------------
+    Top down network design
+    ---------------------------
+    -understand the customer needs and goals
+    -logical design
+    -physical design
+    -testing, optimazation and documentating your networks.
+    
+    
+    understanding the customers needs and goals
+    ---------------------------------------------
+    
+    
+    -The first step when design our network, is to understand  what the customer needs, 
+     this means that we must analyse the business goals, for the current, the existing and thw new network.
+     it is therefore important that we understand what will affect out network design.
+    -It is almost impossible to avoid discussing the office politics in organization,
+     As a network designer,be aware of office politics  but avoid getting involved as these willput your project to a risk.
+    -the best you can doe is to to listen but not talk, you goal is learn about the email agenders.
+    -The chaos report - it stipulate that the seventy five percent of all IT project fail.
+    -In organisation there are though wars,.. and group relations that will play a great role behind your project.Notices that the project you are  undertaking is not necessary that meaning 
+    they have an history that have failed before.
+    -
      
      
      
