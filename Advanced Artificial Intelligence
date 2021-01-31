@@ -259,4 +259,79 @@ Machine Learning
  When should you use machine learning 
  ---------------------------------------------
   -
+  
+  
+  
+              CHAPTER  2
+              -----------------
+Date processing in machine learning
+-------------------------------------
+-A process of preparing the raw  data and making it suitable for a machine learning model.
+-First and crucial step while creating  a machine learning model.
+-Faculitates the cleaning and formating of data.
+
+
+Why do we need Data processing
+-----------------------------------
+-Real world data generally Contains noise, missing values and even unusable format which cannot be directly used by machine learning model.
+-This will increase the efficiency  and accuracy of a machine learning model.
+-It involve the following steps:
+                     Getting the dataset
+                     importing libraries
+                      importing datasets
+                      fnding missing data
+                      Encoding categorical Data
+                      splitting dataset into training and test set
+                      Feature scaling.
+                      
  
+ 
+ 
+ Getting the datasets
+ ----------------------
+ -requires since a machine requires data to work.
+ -Dataset - is a prober formated collection of data for a particular problem.
+          -It may be of differnt format for differnt purpose.
+          - should be put into a csv file in  order to use it our code(also HTML or xlsx file)
+          
+          
+   What is a CSV file
+   -----------------------
+   -Stands for Comma-separated value.
+   -It is a file format which allows us to save the tabular data, such as speedsheet.
+   -It is useful for huge datasets used in programming.
+   -Dataset can also be created by gathering data  using various API with python and should be put into .csv file.
+   
+   
+   
+  Importing libraries
+  --------------------------
+  -Used to perform specific jobs.
+  -The specific libraries   used in data preprocessing:
+              numpy - used for including any type of mathematical operation in the code.
+                    - it is  a fundamental package for scientific calculation.
+                    - support also adding large, multidimensional array  and matrics.
+                    - import numpy as nm
+         matplotlib - is a python 2D plotting library.
+                    - With it we need to import a sub-library pyplot.
+                    -used to plot any type of chart in python.
+                    -import matplotlib.pyplot as mpt
+       pandas   -  One of the most famous python library.
+                -used to manage datasets.
+                -It is an open-source data manipulation and analysis library.
+                -import pandas as pd.
+                
+                
+                
+            importing the datasets
+            -----------------------
+   -procedure:
+            import the datasets which we have collected  for our machine learning project.
+            Before that set a working directory in spyder IDE.
+            save your python file  in the directory which contains dataset
+            Go to file explore option in spyder IDE, and select the required directory.
+            Click on F5  button or run option to execute the file.
+            n/b we can set any directory as a working directory, but must contain the required dataset.
+            
+   
+          
