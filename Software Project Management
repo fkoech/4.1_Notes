@@ -183,11 +183,12 @@ the order of specific tasks as well as the teams and individuals responsible for
 --------------------------------------------------------------------------------
 -
 
-
+summary notes
+-----------------
 
 Project life cycle management 
 -----------------------------------
--Process of managing the entire lifecycle of a product from inceptio, through  engineering design and disposal of a
+-Process of managing the entire lifecycle of a product from inception, through  engineering design and disposal of a
  manufactured products.
 - It has the following phases:
                          ideal generation
@@ -209,9 +210,91 @@ Project management
 
 -Ability to deliver project on schedule, on budget and aligned with business goal is key to
 gaining an edge in today's highly competitve globak business environment.
--
+-IT company engage in software development can be seen  split in two parts:
+              software creation
+              software project management
+              
+project
+---------
+-Project is well defined task, which is a collection of several operations done in order to achieve a goal
+-A  project can be characterised as:
+              unique with distinct goals.
+              Not a routine activity or da to day operation.
+              it comes with starting and ending time
+              It ends with its goal achieved.
+              It requires adequate resources in terms of time, manpower finance materials.
+              
+              
+ Software project
+-----------------------
+ -A complete procedure of software development from requirement gathering 
+   to testing and maintanance.
+ -carried out according to   the executing methodologies, in a specification       period of time to achive intendent software products.
+ 
+ Why do we need software project management
+ ---------------------------------------------
+ -software products are tailor made to fit client requirement.
+ -Underlying technology changes and advances so frequently and rapidly tha experience  of one product may not be  
+ applied to the other one.
+ -The triple constaints for software project are:
+                  time
+                  scope
+                  cost
+                  quality.
+                  
+software project manager
+----------------------------------
+-A person who undertakes the responsibility of executing the software project.
+-May never directly involve in producing the end product but he controls and manages the activities inolved in production.
+-closely monitors  the development  proces, prepares and executes various plans, 
+                      -arranges necessary and adequate resources,
+                      - maintain communication among all team members in order to address issues of cost, budget,
+                       resource, time and quality and customer satisfaction.
+                      -managing people
+                               -Act as  project leader
+                               -Liaison with stakeholders
+                               -setting up reporting hierachy
+                      -managing project
+                                -defining and setting up project scope
+                                -managing project management activities
+                                -monitoring  progress and performance
+                                -Risk analysis every phase
+                                -Take necessary steps to avoid or come out of propblems
+                                -act as project spokesperson.
 
 
+software management activities
+---------------------------------
+-It contains planning of project, deciding scope of software product, estimate the cost of various terms.
+ shedule of tasks and  event and resource management.
+- project management activities.
+               project planning
+               scope management
+               project estimation
+
+-Project planning 
+-----------------------
+-Performed  before the productions of software actually starts.
+-Rather is it a set of multiple processes, which facilitaes software production.
+-May include:
+             Scope management - includes all the activites , process need to be done in order to make a
+                                a deliverable software product.
+                                -It is essential because it  boundaries of the project by clearly defining 
+                                 what would be done in the project and  what would not be done.
+                                -In it  the phase you:
+                                               define the scope
+                                               decide i
+             project estimation
+             projection Estimation techniquires
+             project scheduling
+             Resource management.
+             project risk management
+             Risk management process
+             Project execution & monitoing 
+             project communcation management.
+         
+             
+           
 
 
 
