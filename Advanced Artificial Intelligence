@@ -334,4 +334,39 @@ Why do we need Data processing
             n/b we can set any directory as a working directory, but must contain the required dataset.
             
    
+   
+   
+   
+   
+   
+   
+   
+   
+   LESSON 3 01/01/2021
+   ---------------------------
+   Simple Linear regrassion in machine learning 
+   --------------------------------------------------
+   -A type of algorithm that model the relationship between a dependent variable and a single independent variable.
+   -This relation is  linear or a sloped straight line, hence called simple linear regression.
+   -It has two main objective:
+            1.Model a relationship bewteen the two variable. - ie relationship between income and expenditure, experience and salaries.
+            2.Forecasting new observations - ie weather forecasting according to temperature, revenue of a company according to the investment in a year.
+            
+    simple linear regression model
+    ------------------------------------
+    - Represented using the following equation:
+               y = a0+a1x+ε 
+    -a0 - is the intercept of the regression line.
+    -a1 - is the slope od the regression line, it tells whether the line is icreasinf or decreasing.
+    -ε  - is the term 
+   
+  
+   
+   
+   Implementation of simple linear regresssion algorithm using python
+   -------------------------------------------------------------------------
+   -Take a dataset that has two dataset.
+   
+   
+   
           
