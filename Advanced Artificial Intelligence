@@ -365,8 +365,46 @@ Why do we need Data processing
    
    Implementation of simple linear regresssion algorithm using python
    -------------------------------------------------------------------------
-   -Take a dataset that has two dataset.
+   -Take a dataset that has two variables.
+   -Salary(dependant variable) and experience(independent variable)
+   -The goal of the problems is to -find out if the is any relationship  between these two variables.
+                                   -Find the best fit for the dataset.
+                                   -How the depenfent  variables is changing by changing the dependent variable.
+                                   
+   -steps:
+         1 - Data pre-processing 
+         --------------------------
+    -import the three important libraries, which will help us for loading the dataset,
+     plot the graph, and create  the simple lenear regression model.
+               import numpy as nm
+               import matplotlib.pyplot as mtp
+               import pandas as pd
+   -load the dataset into our code.
+               data_set = pd.read_csv('salary_Data.csv')
+   -Execute the above line of code(ctrl+ENTER) 
+   -read the dataset on our spyder IDE screen by clicking on the variable explorer option
+   -It will show the data dataset which has two variables. salary and expence.
+   -N/b floder containing the code file must be saved as a working directory and thedataset  or csv file should be in he same folder.
+   -Extract the dependent and independent variables  form the given daaset.
+   -the independent variable  is year of experience, and dependent variable is salary.
+                 x = data_set.iloc[:,:-].values
+                 y = data_set.iloc[:,1].values
+   - -1 removes the last column from the dataset.
+   -We can see the x (independent) variable and y(dependent) variable has been extracted from the given daaset.
    
+   -We can spit dataset  so that we can train the model using a teaining dataset and ten test the 
+    dataset 
+                #spitting the dataset into training and test set.
+                from sklearn.model_selection import train_test_split
+                x_train, x_test, y_train, y_test = train_test_slit(x,y,test_size=1/3, random_state=0)
+   -By executing above code, we ill get x-test, x-train and y-test, y-train dataset.
+   -for simple linear regression, we will not use feature  scaling.Because python libraries take care of it for some cases.
+   - The dataset  is well prepared to work on it and we are going to start building a simple linear regresssion  model for a given problem.
    
+   2.Fitting the simple linear regression to the training set.
+   --------------------------------------------------------------
+   page 5
+                
+           
    
           
