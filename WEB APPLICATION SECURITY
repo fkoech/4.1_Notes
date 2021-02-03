@@ -66,7 +66,7 @@ Who is a hacker -  an individual who uses the network, computer and other techni
                                         
                                         CHAPTER 2 
                                         -------------
-      -  -cryptography - secret code.
+-cryptography - secret code.
 -plain text - human readable text.
 -cipher text - plain text that is encrypted .
 -Intruder - malicious party.
@@ -77,7 +77,8 @@ Who is a hacker -  an individual who uses the network, computer and other techni
 -Private key  -
 -Public key - 
 -Decryption  - 
--key - 
+-key - -private key
+        -public key
 -block ciphers -cipher feedback
            - 
 -stream ciphers - self synchronising 
@@ -89,6 +90,7 @@ Who is a hacker -  an individual who uses the network, computer and other techni
 -R13
 -SHA-1
 -Non-repudiation
+-The hash function - is used to verify the legitimacy of the message.
 
 
 
@@ -102,7 +104,7 @@ Type of cryptography
 
 SKC algorithm
 1-Data encryption standard
-         -Triple -DES
+         -Triple -DESX
          -DESX
 -DES - employ 56bit key that operate on  64bit block.
 2-Advanced encryption standard 
@@ -124,10 +126,48 @@ PKC algorithms
 -Hash function, also message digest and one-way encryption                                
                                         
                                         
+                                Lecture 3     03/02/2021
+                            ----------------------------------
+                    
+         Diffie-hellman 
+         ----------------
+         -Introduced the concept of public key cryptography.
+         -first published public-key  crypto algorithm.
+         -practical method for pubic exchange of a secret key.
+         -used in a number of commmercial products.
+         -It allowed two paties to generate a secret key.
+         -they need to exchange some information over an unsecure communication channel  
+         to perform the calculation.
+         -Can also be used to allow key sharing amongst multiple users.
                                         
                                         
+                         Diffie-Hellman steps
+                         -----------------------
+        1. A & B share a large number q
+        2. they choose a number  A (A is primitive to q)
+           primitive - relating to or denoting.
+        3.Each choose private keys X
+                X
+        4. Each user calculate their public key, y
+        alice  y=AxA mode q
+        Bob= yB = AXB mode q
+       .The parties share the public keys
+       .Each use computes the session keys
+           Alice  KA = YBXA mod q
+           Boby  KB = YAXB  mod q
+           
+   -primitive - element in a group in a whose power exhaust the entire group        
                                         
-                                        
+          application of the three cryptographic  techniques for secure communication
+          ---------------------------------------------------------------------------
+ -hybrid cryptographic sheme is the compinations of all of these functions to form s cecure transmission comprising
+  digital signature and digital environment.
+ -Digital environment - is the compination of the message and all encrypted session key.
+                      
+                      
+            why the three encryption techniques
+            -----------------------------------------
+ -
                                         
                                         
                                         
