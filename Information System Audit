@@ -1,9 +1,11 @@
-CMT 446  page five
+CMT 446  
 -----------
+                   Lesson1
+                   -------------
 Introduction To Information Systen Audit
 ------------------------------------------
 -Book - Certified information system Auditor()
--Auditor - Review the strength of the information system control and report their capability to protect the organisation's assets.
+-Auditor -is a person who  Review the strength of the information system control and report their capability to protect the organisation's assets.
          -Responsible for leading, plannig  and performing the audit.
          -Must understand  auditing standards, how to perform an audit, and how to measure risk.
          -Plan specific audit to ensure that IT and businness system are protected and controlled.
@@ -40,11 +42,12 @@ Regulation standards includes:
 -----------------------------------
 -U.S Health and portability and accountability act(HIPAA)
 -sarbanes-oxley act
--Basel Accord standard II
--U.S Federal information Security management Act(FISMA)
--Committee for sponsoring Organization of the Treadyway commission.
--US supervision control and data acquisition 
--U.S Fair and accurate credit transaction act of 2003
+-Basel Accord standard II 
+-U.S Federal information Security management Act(FISMA) - security standard for u.S govenment system.
+-Committee for sponsoring Organization of the Treadyway commission(COSO) - identify factors that leads to fraudulent finacial reporting and to be
+                                                                        used as a voluntary interanal framepwork of control.
+-US supervision control and data acquisition(SCADA) - enhance security  for automated control systems.
+-U.S Fair and accurate credit transaction act of 2003(FACTA) -legislation to reduce fraud and identity theft.
 -ISA will build the strength 
 -Auditors -reviews the companie's strength  of the IS control are responsible  for leading, planning and performing the audit.
           -Must understand auditing standard, how to perform audit and how to measure risk.
@@ -53,7 +56,199 @@ Regulation standards includes:
                        -Compliance audits
                        -Information system auditor
                        -Business audit
-                       
+         -Evaluate the design and operation of internal contol.
+
+
+The general process in evaluating the design  and operation of internal control
+---------------------------------------------------------------------------------------
+1- Verify compliance with external regulations
+             -identify the external requirements with the company 
+             -review the specific laws and regulations with which the organisation must becompliant
+             -determine whether the organisation considered these laws and regulations when policies and
+              procedures were developed
+             -Determine whether identified policies and procedures adhere to external laws and requirements
+             -Determine whether the employeess are adhering to specific policies and procedure or whether discrepancies exist.
+             
+ 2- Audit planning 
+             -present an independent and objective evaluation of the state of the internal control with 
+               appropriate recommendations to mitigate any detected risks if applicable.
+             -Audit charter  is required at the highest level to establish the IS audit function.
+             -The charter defines what responsibilities senior management is deligating.
+             -The audit  departement - should report to the audit committee.
+                                     -should not report to the  senior management directly because it might create an independence problem.
+             -The audit commitee - is responsible only to senior management and the board of directors.
+                                 - They should report directly to the directors.
+             -Long-term plans are considered strategic.
+             -Strategic planing looks at what effect management's planned long-term  changes to the infrastructure
+              will  have on the security of the organization.
+             -Short-term planning is reffered to as tactical planning.
+             -Tactical planning looks at issues the organization currently faces, such as what is to be audited during
+              the current year.
+             -Audti dont occur in vacuum.
+             -Auditors must take into account the company and its culture, and must understand the environment in which 
+              they will be working.
+          
+          
+             Audit planning process
+             -------------------------
+         -Learn the business, review the mission statement, and understand its purpose and goals.
+         -Review documentation and evaluate existing policies, procedures and guidelines
+         -Identify threats, risks, and concerns.
+         -Carry out risk analysis
+         -Identify internal controls.
+         -Define audit objective and scope of audit.
+         -Identify resource needed for the audit and assign appropriate personnel.
+         
+         
+         
+         
+         ISACA STANDARDS
+         --------------------
+   -They are designed and developed by the ISACA standards board.
+   -The board meets  twice a year to develop ISACA standard  to help advance the IS auditing profession.
+   -Standard is used here to describe the category of guidance document.
+   -Guidelines and procedures - offer guidance on how to maintan compliance.
+                              - there are 35 categories of guideline:
+                                  G1 - Using the work of other auditors
+                                  G2 - Audit evidence requirement
+                                  G3 - Using the computer-assisted audit techniques(CAATS)
+                                  G4 - Outsource of IS activities  to other organizations
+                                  G5 - Audit charter
+                                  G6 - materiality concepts for auditing information systems.
+                                  G7 - Due professional Care
+                                  G8 - Audit Documentation.
+                                  G9 - Audit considerations for irregularities
+                                  G10 - Audit sampling
+                                  G11 - Audit sampling
+                                  G12 - Organization relationship and independence
+                                  G13 - Use of risk assessment in audit planning
+                                  G14 - Application system review
+                                  G15 - Planning Review
+                                  G16 - Effect of third parties on an organization IT controls
+                                  G17 - Effect of nonaudit role on the IS Auditor's independence
+                                  G18 - IT Governance
+                                  G19 - Irregularities and Illegal acts
+                                  G20 - Reporting 
+                                  G21 - Enterprise resource planning (ERP) systems Review
+                                  G22 - Business to consumer(B2C) e-commerce Review
+                                  G23 - System Developement lifecycle (SDLC) Revies
+                                  G24 - internet banking
+                                  G25   - Review of virtual private networks
+                                  G26     Business process Reeingineering (BPR) project Reviews
+                                  G27 - Mobile computing 
+                                  G28 - computer forensics
+                                  G29 - Post-implementation Review
+                                  G30 - Competence
+                                  G31 - Privacy
+                                  G32 - Businedd Contuinuity plan(BCP) review from IT parspective
+                                  G33 - General considereation on the use of internet
+                                  G34 - Reponsibility, authority and accountability/
+                                  G35 - follow-up  activities
+                             -procedure caterories are 10:
+                                        P1 - IS Risk Assessment
+                                        p2 - Digital signatures
+                                        P3 - intrusion Detection
+                                        P4 - Viruses and other malicious code
+                                        p - control risk self-assement
+                                        p6 - Firewalls
+                                        p7 - irregularities and illegal acts
+                                        p8 - security assessment - penetration testing and vulnerability analysis
+                                        p9 - evaluation of management control encryption methodologies
+                                        p10 - Business application change control.
+       
+  -Standard - are agreed upon principles of protocols.
+            -it detail mandatory requirements.
+            -The 14 caterogies of standards includes:
+                        s1 - audit charter
+                        s2 - independence
+                        s3 - professional ethics and standards
+                        s4 - competence
+                        s5  - planning
+                        s6  - peformance of audit work
+                        s7 - repoorting 
+                        s8 - follow-up activities
+                        s9 - irregularities and illegal acts
+                        s10 - IT governance 1 september 2005
+                        s11 - use of risl assessment audit planning 
+                        s12 - audit materiality
+                        s13 - using the work of other experts
+                        s14 - audit evidence
+                        
+  
+  
+  ISACA CODE OF ETHICS
+  -----------------------
+  -Auding involves more than maintaining legal requirements.
+  -Ethics  - go beyond legal requirements.
+           -Defined principles and values that govern acceptance behavior.
+  -Auditors must treat clients honestly and fairly, and their action must reflect positivly on their company, and 
+   profession.
+   
+   
+   Code of professional ethics
+   -------------------------------------
+   -members and certification holders shall:
+            -support the implementation of, and encourage compliance with, appropriate standards, proce-
+             dures and control for information systems.
+            -Perform their duties with due diligence and professional care, in accordance with professional standard and best practicses.
+            -Serve in interest of stakeholders in a lawful and honest  manner,while maintaining high standards
+             of conducts and character, and not engage in acts discreditable to the profession.
+           -Maintaince the privacy and confidentiality of information obtained in the course of their  duties, unless disclosure 
+            is required by legal authority. Such information shall not be used for personal benefit or release to  complete with professional competence.
+           -Inform appropriate parties of the result of work performed, revealing all significant facts known to them.
+           -Support the professional education of stakeholders in enhancing their understanding  of information systems security and control.
+           
+  
+  
+  
+  RISK analysis
+  ---------------
+  -One of the way used to determine what to audit.
+  -Risk - cannot be discussed in a void. 
+        -Is the potential for harm.
+  -Vulnerability - is weakness in a system or process.
+  -Categories of risk:
+                     Audit risk - The risk that the audit report mighr contain a material error or that an 
+                                 error might exist that the auditor did not detect.
+                    -Control risk - The risk that a material error may exist that mighr not detect by the system of internal control.
+                    -Business risk - risk that will affect the business function goals.
+ -Risk comes in different forms, it can threaten an organisation by financial, operational or regulatory means.
+ 
+ 
+ RISK MANAGEMENT
+ ----------------------
+ -Define process for managing risk:
+ -Include the following steps:
+              -Develop a risk management team
+              -Identify assests
+              -Identify threats
+              -perform risk analysis
+             - Perform risk mitigation
+              -Monitor
+-Develop  a risk management team , which are responsible for the risk assessment process.
+-The team needs support and funding from senior management and should be led by someone with strong project
+ management skills.
+-They then identify the assets before moving to the next step of the risk-management process.
+-After identifyinh high-risk,  high-impact concerns, the risk-management  team can move on to the risk mitigation.
+-Risk migitation - addresses how risk will be handled.
+                 -Can be addressed in the following basic ways:
+                     -Avoid risk - you can simply dont perform the activity that allows the risks to be present.
+                     -Reduce risk - most common methods of dealing with risk.
+                                  - example is installing firewall or implementing a new internal accounting control.
+                     -Accept risk - meanig, the organisation knows about the risk  but makes a conscious decision to accept the risk.
+                                  -It means the company retains the potential costs that are associated with the risk.
+  
+        
+  RISK-BASED AUDITs
+  ----------------------
+  -knowledge statement
+   --------------------------
+  -Understanding risk assessment can be big help to the auditor.
+  -Audits can be designed to take a risk-based approach.
+  -Risk-based approach to auditing looks at more than just a risk , it also examine the company's practices
+  -Its toleranc for the risk.
+  -It can help in pinpointing area of  high risk.
+  -It is based on determining which areas should be audited based on the perceived level of risk.
 -Identifies the external requirement for....
 -review the specific laws .....
 -Determine whether the organisations....
@@ -103,7 +298,7 @@ Regulation standards includes:
     ISACA   code of ethics
     -------------------------
     -Ethics goes beyond human requirement.
-    -they are define values and principles that define human behavior.
+    -they are defined values and principles that define human behavior.
     -They include:
                 -Code of conduct.
                 -to support the implimentation and  compliance with appropriate stand....
@@ -145,7 +340,7 @@ Regulation standards includes:
             
     Risk based audit
     ----------------------
- -Steps followed in a :
+ -Steps followed :
          1-gather information and plan
         2 -understand the bussines
          -Review audit
@@ -212,7 +407,7 @@ Audit sampling
 -statistical sample is based on probability.
              can measure risk and the use of .....
  -nonstatistical sampling  -the auditor uses his own judgement, also called judgemental sampling.
--Variable sampleing
+-Variable sampling
 -stop and go sampling 
 -frequency and ..........
     
@@ -220,8 +415,64 @@ Audit sampling
 -evidence - is information that an auditor obtain to assist.
           - should be sufficient, reliable, usable relavant and effective.
           
+              
+              
+         Lesson 4
+         -------------
+ -Software costing model
+     -constructing cost model
+    -kilo line of....
+    -Number of user output.
+    -number of files.
+ *function type analysis
+-Shedule is the prefered type for estimating time. 
+-critical pass - can be computed by the project management.
+-timebox management - used in project.
+                    - used to login specification and prevent greek.
+-project control - 
+-closing a project require key task such as ...
+
+
+-structured are used by organisations to :
+          -minimise risk
+          -
+          -
+          -
+         key terms usedin development state
+         --------------------------------------
+ -cohesion and coupling- developers should devep a high cohesion and low coupling.
+ 
+ -Testing type
+    -black box test
+    -
+    -
+    -
+-certification is a technical rep....
+              the end user should approve that the end product is full functioning .
+-operation of a techniques:
+              -parallel operation
+              -
+              -
+              
+Alternative developmemt techniques
+------------------------------------
+ -globalistations has increase.....
+
+develoment models
+------------------------
+-protatyping 
+-rapid application development
+-Agile software development.
+
+-auditor - should ensure that backup is done.
+         -watch that  the is security oversite.
+         
+-       
+  
           
           
+      
+         
     
     
     
