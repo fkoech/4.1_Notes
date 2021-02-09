@@ -22,7 +22,7 @@ Introduction To Information Systen Audit
                         
                         Audit planning 
                         -------------------
-                       -The goal of the audit  function is to presesnt an independent  and 
+                       -The goal of the audit  function is to present an independent  and 
                         objective evaluation of the state of the internal control with appropriate  recommendation to mitigate any detected risks if applicable.
                         -At the highest level,  the audit function requires an audit charter to establish the IS  audit function.
                         -The charter  -defines what responsibilities senior management is delegating.
@@ -34,9 +34,9 @@ Issues and challenges of ISA
 ---------------------------------
 -All organinsation must work within the framework of laws and regulations.
 -These rules may dictate how data is processed, handled, stored and destroyed.
--If organisation fals to handleinformation with due care and diligence, the could be subjected to fines, loss of public confidence or even jail time.
+-If organisation fails to  handle information with due care and diligence, the could be subjected to fines, loss of public confidence or even jail time.
 -They will be liable if personal data is disclosed to an unauthorized person.
--Safe harbor act - this act prohibits the transfer of personal data to non-auropeam union(Nation) that do not meet  the european standard for privacy protection.
+-Safe harbor act - this act prohibits the transfer of personal data to non-auropean union(Nation) that do not meet  the european standard for privacy protection.
 
 Regulation standards includes:
 -----------------------------------
@@ -63,11 +63,11 @@ The general process in evaluating the design  and operation of internal control
 ---------------------------------------------------------------------------------------
 1- Verify compliance with external regulations
              -identify the external requirements with the company 
-             -review the specific laws and regulations with which the organisation must becompliant
+             -review the specific laws and regulations with which the organisation must be compliant
              -determine whether the organisation considered these laws and regulations when policies and
-              procedures were developed
+              procedures were developed.
              -Determine whether identified policies and procedures adhere to external laws and requirements
-             -Determine whether the employeess are adhering to specific policies and procedure or whether discrepancies exist.
+             -Determine whether the employees are adhering to specific policies and procedure or whether discrepancies exist.
              
  2- Audit planning 
              -present an independent and objective evaluation of the state of the internal control with 
@@ -81,7 +81,7 @@ The general process in evaluating the design  and operation of internal control
              -Long-term plans are considered strategic.
              -Strategic planing looks at what effect management's planned long-term  changes to the infrastructure
               will  have on the security of the organization.
-             -Short-term planning is reffered to as tactical planning.
+             -Short-term planning is refered to as tactical planning.
              -Tactical planning looks at issues the organization currently faces, such as what is to be audited during
               the current year.
              -Audti dont occur in vacuum.
@@ -134,13 +134,13 @@ The general process in evaluating the design  and operation of internal control
                                   G23 - System Developement lifecycle (SDLC) Revies
                                   G24 - internet banking
                                   G25   - Review of virtual private networks
-                                  G26     Business process Reeingineering (BPR) project Reviews
+                                  G26     Business process Reengineering (BPR) project Reviews
                                   G27 - Mobile computing 
                                   G28 - computer forensics
                                   G29 - Post-implementation Review
                                   G30 - Competence
                                   G31 - Privacy
-                                  G32 - Businedd Contuinuity plan(BCP) review from IT parspective
+                                  G32 - Businessdd Contuinuity plan(BCP) review from IT parspective
                                   G33 - General considereation on the use of internet
                                   G34 - Reponsibility, authority and accountability/
                                   G35 - follow-up  activities
@@ -165,11 +165,11 @@ The general process in evaluating the design  and operation of internal control
                         s4 - competence
                         s5  - planning
                         s6  - peformance of audit work
-                        s7 - repoorting 
+                        s7 - reporting 
                         s8 - follow-up activities
                         s9 - irregularities and illegal acts
                         s10 - IT governance 1 september 2005
-                        s11 - use of risl assessment audit planning 
+                        s11 - use of risk assessment audit planning 
                         s12 - audit materiality
                         s13 - using the work of other experts
                         s14 - audit evidence
@@ -181,7 +181,7 @@ The general process in evaluating the design  and operation of internal control
   -Auding involves more than maintaining legal requirements.
   -Ethics  - go beyond legal requirements.
            -Defined principles and values that govern acceptance behavior.
-  -Auditors must treat clients honestly and fairly, and their action must reflect positivly on their company, and 
+  -Auditors must treat clients honestly and fairly, and their action must reflect positively on their company, and 
    profession.
    
    
@@ -208,9 +208,9 @@ The general process in evaluating the design  and operation of internal control
         -Is the potential for harm.
   -Vulnerability - is weakness in a system or process.
   -Categories of risk:
-                     Audit risk - The risk that the audit report mighr contain a material error or that an 
+                     Audit risk - The risk that the audit report might contain a material error or that an 
                                  error might exist that the auditor did not detect.
-                    -Control risk - The risk that a material error may exist that mighr not detect by the system of internal control.
+                    -Control risk - The risk that a material error may exist that might not detect by the system of internal control.
                     -Business risk - risk that will affect the business function goals.
  -Risk comes in different forms, it can threaten an organisation by financial, operational or regulatory means.
  
@@ -229,7 +229,7 @@ The general process in evaluating the design  and operation of internal control
 -The team needs support and funding from senior management and should be led by someone with strong project
  management skills.
 -They then identify the assets before moving to the next step of the risk-management process.
--After identifyinh high-risk,  high-impact concerns, the risk-management  team can move on to the risk mitigation.
+-After identifying high-risk,  high-impact concerns, the risk-management  team can move on to the risk mitigation.
 -Risk migitation - addresses how risk will be handled.
                  -Can be addressed in the following basic ways:
                      -Avoid risk - you can simply dont perform the activity that allows the risks to be present.
@@ -246,7 +246,7 @@ The general process in evaluating the design  and operation of internal control
   -Understanding risk assessment can be big help to the auditor.
   -Audits can be designed to take a risk-based approach.
   -Risk-based approach to auditing looks at more than just a risk , it also examine the company's practices
-  -Its toleranc for the risk.
+  -Its tolerance for the risk.
   -It can help in pinpointing area of  high risk.
   -It is based on determining which areas should be audited based on the perceived level of risk.
 -Identifies the external requirement for....
@@ -263,7 +263,7 @@ The general process in evaluating the design  and operation of internal control
 -the audit committee is like the committee of few managers.
 -the audit committee is only responsible to senior management 
 -Auditors - should report findings to sinior management
--short term planning also tarctical planning which  looks at issue the organisation is currently facing.
+-short term planning also tactical planning which  looks at issue the organisation is currently facing.
 
 
    ISACA
@@ -312,9 +312,12 @@ The general process in evaluating the design  and operation of internal control
     - risk is the pottential for harm.
     -Vulnerability - is the weakness in a system or process.
     -a threat- can be seen as frequency .
+    
+    common categories of risk
+    -------------------------
     -Include 
-    -audit risk - a risjk that the audit might contain audit error or an error can exist without beung detected
-   - control risk - this the risk that a material arror that mighr excist and  cannot bw detected
+    -audit risk - a risk that the audit might contain audit error or an error can exist without being detected
+   - control risk - this the risk that a material arror that might exist and  cannot be detected.
     -Business risk - a risk that
    - Detection risk
     -material risk
@@ -327,7 +330,8 @@ The general process in evaluating the design  and operation of internal control
     -------------------
     -follows a define process which includes:
                -develop a risk management 
-               -identify threat
+               -identify asets
+               -identify threats
                -peform risk mitigation
                -monitor
    
@@ -343,7 +347,7 @@ The general process in evaluating the design  and operation of internal control
  -Steps followed :
          1-gather information and plan
         2 -understand the bussines
-         -Review audit
+         -Review audit from prior years
          -Evaluate 
         3-Determine the internal control and review functionality
         4-perform compliance test
@@ -356,7 +360,7 @@ The general process in evaluating the design  and operation of internal control
     
     Auditing of internal control
     ----------------------------------
-    -conterol tipocal start with high level policy and applies in all area in company
+    -conterol tipical start with high level policy and applies in all area in company
     -information system - verifies that the information system are mentained in a controled state
     -information system procedures -procedures that provide reasonable assurance for the control of database system.
     -informatipn sysem auditors - should understand how each general proceudre co-relate.
@@ -372,9 +376,9 @@ The general process in evaluating the design  and operation of internal control
    Audit process 
    ----------------
    -An audit can be defined an a plan, independent and document accessment to determine whether agree upon required and standard of operation have been made.
-   -An information system audit is similar to the other audit  ie finanncial accept it deals with computerised system that hundles information.
+   -An information system audit is similar to the other audit  ie financial accept it deals with computerised system that hundles information.
    -this system can be fully computerised or still be partially audited
-   -An auditor should build confident and trust.
+   -An auditor should build confidence and trust.
    
  
   Audit classification
@@ -467,7 +471,21 @@ develoment models
 -auditor - should ensure that backup is done.
          -watch that  the is security oversite.
          
--       
+    
+    
+    
+    APPLY YOUR KNOWLEDGE
+    -------------------------
+   -aspects of IS audit process.
+   -Risk assessment process  consist of:
+            1.Develop a risk management team
+            2.Identify assets
+            3.Identify threats
+            4.Perform risk analysis
+            5.
+            
+      
+    
   
           
           
