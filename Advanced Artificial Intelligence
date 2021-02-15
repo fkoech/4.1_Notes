@@ -26,7 +26,7 @@ Machine Learning
  -AI that is  running behind the scenes and identifying faces 
  -Automous cars running on roads detect object in real time to steer the car.
  -Object detection technic in real time helps to learn the real-time traffic situation and 
- follow the bes path(Google direction)
+ follow the best path(Google direction)
  -Google translator, helps in communications.
  
  -The advantange of AI is that it can it can perform extremely complex
@@ -49,7 +49,7 @@ Machine Learning
  
       What is machine learning
       --------------------------
- -Machine learing  is like an act of using the statistical optimazation techniques to  find out the equation 
+ -Machine learning  is like an act of using the statistical optimazation techniques to  find out the equation 
  for the best curve.
  -It uses the optimazation technique to find the solution to problem.
        
@@ -85,11 +85,11 @@ Machine Learning
              
  Supervised learning
  -----------------------
- -Analogous to training a child to walk.
+ -Uses analogous to training a child to walk.
  
  Regression
  -------------
- -Similar to supervised learning accept  that you give a concrete known examples to the
+ -Similar to supervised learning, accept  that you give a concrete known examples to the
   computer.
   
   Classification 
@@ -105,7 +105,7 @@ Machine Learning
   -For the case of supervised a machine need to be trained with even few thousands of data points.
   -For the cause of unsupervised learning, the number of data point that is reasonable 
    accepted for learning start in a few millions.
-   -data idealy requires  curating.
+   -data ideally requires  curating.
    -Data Curating - is the organisation and integration  of data collection from various source.
                   - It involve annotation, publication and presentation of data such that the value of the data is maintained over time.
                     and data remains available  for reuse and preservation.
@@ -132,9 +132,9 @@ Machine Learning
   DEEP LEARNING
   ---------------------
   -A model based on Artificial Neural  Network(ANN),  more specifically,
-   convolution  neueal networks(CNN),.
+   convolution  neural networks(CNN),.
   -It used architectures such as:
-                                 Deep neursl network
+                                 Deep neural network
                                  Deep belief network
                                  Recurrent neural network
                                  convolution neural network.
@@ -406,5 +406,70 @@ Why do we need Data processing
    page 5
                 
            
-   
+           
+           
+           Multiple Linear Regression
+           ---------------------------
+   - Variable is affected by more than one predictor variable.
+   - An extension of Simple Linear regression as it takes more than one predictor variable to predict the response variable.
+   - one of the important regression algorithms which models the linear relationship between a single dependent continuous
+     variable and more than one independent variable.
+   -Dependent or target variable(Y) must be the continuous/real, but the predictor or independent 
+    variable may be of continuous or categorical form.
+   -Each feature variable must model the linear relationship with the dependent variable.
+   -Tries to fit a regression line through a multidimensional space of data-points.
           
+
+Assumptions for Multiple Linear Regression
+----------------------------------------------
+-A linear relationship should exist between the Target and predictor variables.
+-The regression residuals must be normally distributed.
+-MLR assumes little or no multicollinearity (correlation between the independent variable) in data.
+
+Implementation of Multiple Linear Regression model using Python:
+------------------------------------------------------------------
+-Problem Description:
+We have a dataset of 50 start-up companies.
+This dataset contains five main information: R&D Spend,
+Administration Spend, Marketing Spend, State, and Profit for a financial year.
+Our goal is to create a model that can easily determine which company has a maximum profit,
+and which is the most affecting factor for the profit of a company.
+
+-Since we need to find the Profit, so it is the dependent variable,
+and the other four variables are independent variables.
+Below are the main steps of deploying the MLR model:
+    1.Data Pre-processing Steps
+    2.Fitting the MLR model to the training set
+    3.Predicting the result of the test set
+    
+-Step-1: Data Pre-processing Step:
+   contains the below steps:
+Importing libraries: Firstly we will import the library which will help in building the model.
+Below is the code for it:
+     1.# importing libraries  
+     2.import numpy as nm  
+     3.import matplotlib.pyplot as mtp  
+     4.import pandas as pd  
+ Importing dataset: Now we will import the dataset(50_CompList), which contains all the variables.
+Below is the code for it:
+        1.#importing datasets  
+        data_set= pd.read_csv('50_CompList.csv')
+        #there are five variables, in which four variables are continuous and 
+        #one is categorical variable
+ Extracting dependent and independent Variables:
+     1.#Extracting Independent and dependent Variable  
+     2.x= data_set.iloc[:, :-1].values  
+     3.y= data_set.iloc[:, 4].values    
+Encoding Dummy Variables
+ -To encode the categorical variable into numbers, we will use the LabelEncoder class.
+ But it is not sufficient because it still has some relational order, which may create a wrong model.
+ So in order to remove this problem, we will use OneHotEncoder,
+ which will create the dummy variables.
+            1.#Catgorical data  
+            2.from sklearn.preprocessing import LabelEncoder, OneHotEncoder  
+            3.labelencoder_x= LabelEncoder()  
+            4.x[:, 3]= labelencoder_x.fit_transform(x[:,3])  
+            5.onehotencoder= OneHotEncoder(categorical_features= [3])    
+            6.x= onehotencoder.fit_transform(x).toarray()  
+  
+     
