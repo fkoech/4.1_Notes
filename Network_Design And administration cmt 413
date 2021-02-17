@@ -189,7 +189,48 @@ Network access                  Ethernet
             -----
 -Transport protocol.
 -Devides HTTP.message into segment.
--The segment are 
+-The segment are  sent between the web server and client processes running in the destination host.
+-Control the size and rate at which message are exchanged.
+
+  ip
+  ----------
+-Takes formatted segments from the TCP.
+-encapsulates them into packets
+-Assigns them appropriate address.
+-Deliver them to the destination host.
+
+
+Ethernet
+-------------
+-network access protocal
+-primary function:
+       -communicate over data link and the physical transmission of data on a network media.
+       
+-Network access protocol - are responsible for taking the packets from the  ip and 
+  formatting them to be transmitted over the media.
+-
+
+protocol suits and industrial standards
+------------------------------------------------
+application layer - tcp/ip - https
+                             DNS
+                             DHCP
+                             FIP
+                  -iso  - ACSE
+                          RCSE
+                          TRSE
+                          
+transport  - tcp/ip  -TCP
+                     -UDP
+Internet   -tcp/ip   - ipv4
+                       ipv6
+                       icmp4
+                       icmp5
+ 
+   
+             
+ 
+       
  
  
  
