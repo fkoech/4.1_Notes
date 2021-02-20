@@ -540,7 +540,19 @@ What is  network system and administration?
    -As a network ddesigner, get to know your client business style. one aspect that you must know is tolerance and risk.
    -
                          
-  
+   19/02/2021
+Health of the network
+Safeguard  future issue(network issues)
+       -scalability
+       -reliability
+       -standards - h/w support
+                - s/w background compatibility.
+-consider bandwidth and latency
+-contention - 1:1 is a dedicated /broadband connection-
+it has a higher throughput.
+-ip address - is an address that identifies a device in a network.
+-ip  address  - 
+
     
      
      
