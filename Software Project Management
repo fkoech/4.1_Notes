@@ -8,7 +8,7 @@ purpose
 
 Definition of terms
 --------------------
--differenciate between -data and information   - Information  is processed , organised data presented in a  given context and is usedful to humans.
+-differenciate between -data and information   - Information  is processed , organised data presented in a  given context and is useful to humans.
                                                  while  data is an individual unit that contain raw material which does not carries any specific meaning.
                        -Knowledge and intelligence - retained information while intelligence is knowledge or rather expert kno
  -process - is a kind of interelated  action or activities performed to achieve a set of product service results.
@@ -412,5 +412,40 @@ Facilitating process
 -Quality assurance - Process of evaluating the total perfomance of the project regularly, in
                     order to ensure that the project confirms  to the quality standards.
 
+-Team development - process of making the required information  available to project stakeholders.
+-Information distribution - making the required  information available to project stakeholders
+-solicitation - gathering information in the form of bids, quotations and proposals from qualifies vendors to satisfy the project needs
+-Vendor sections - accepting bids, quotations or proposals and evaluating vendors.
+-Contract administrations - ensuring that the vendor delivers materials as per the requirement of the contract.
+i - starting the execution
+j - Day- to -day management
+k -  change management and reporting
 
+
+4. management process - helps to measure project performance regularly so as to determine the deviations 
+                        from  the plan and rectify the problems.
+5. closing process - every project has to come to an end after it has attained its objectives.
+                   - it marks  the formal acceptance of the project by rhe client.
+l. product acceptance and implementations/ applications activities
+m. composition of the final report and the lesson learned documentt
+n. planning the follow-up activities
+o. filing and archiving the project documentations
+
+
+
+
+project management tools
+------------------------------
+1-Program evaluation and review techniques(PERT) - model for  project management design
+ analyze and represent the tasks involved in completing a given project.
+ -primarly simplify the planning  and scheduling of large and complex project.
+ -Able to incorpoate uncertainty by possible to shedule a project while not knowing precisely the detailed and duration of all
+ the activities.
+ -more of event- oriented technique rather than start completion-oriented 
+ -used in more R&D type project where time rather than cost, is the major factor.
+ -Intended for very large-scale, one-time, complex, non-routine projects.
+ 
+2-critial path method( CPM ) - applied where the activity times are more or less certain.
+
+(page7)
 
