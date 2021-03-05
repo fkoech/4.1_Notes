@@ -557,7 +557,34 @@ it has a higher throughput.
      
      
      
-     
+     Lecture 7  26/02/2021
+  Characterizing  large internework 
+-Geographical in formations
+-Develop details maps to show :
+-Building 
+-The location of major servers, routers,  firewalls, mainframes, major network-management stations,the location and reach of virtual LANS, location of the work station.
+
+What are the details that goes to this map
+-Might depict the location of security server, 
+-Dynamic service including the dynamic host configuration(DHCP), DNS
+-
+Characterise the 
+-Tcp provide wide service to application by the udp does not
+-Udp does not bother to re transmit therefore many application does not choose udp
+-.udp is connection oriented.
+-TCP is responsible to handle the flow control.
+Upd - unreliable, connection protocol, used to for one-short, client-server-type request.
+    -used in application in which prompt delivery is more important than accuracy delivery.
+-modes of communication 
+Half duplex - 
+Full duplex - A and B sending and receiving simultaneously.
+Buffering - allows devices with different speed  to communication.
+
+Ports - msql port is 3304
+Tcp header - 
+Tcp communication -
+
+
      
      
      
